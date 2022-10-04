@@ -10,6 +10,12 @@ import java.util.Set;
 public record BusinessOpeningHours(
 
   @JsonProperty("days")
-  Map<String, Set<BusinessOpeningInterval>> days
+  Map<String, Set<BusinessOpeningInterval>> days,
+
+  @JsonProperty("closed_on_holidays")
+  Boolean closedOnHolidays,
+
+  @JsonProperty("open_by_arrangement")
+  Boolean openByArrangement
 ) {
 }

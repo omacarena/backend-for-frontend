@@ -1,7 +1,7 @@
 feign:
   business-search:
     name: business-search
-    url: https://storage.googleapis.com/coding-session-rest-api
+    url: [[to_be_defined]]
 
 springdoc:
   api-docs:

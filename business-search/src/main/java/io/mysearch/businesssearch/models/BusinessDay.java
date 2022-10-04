@@ -6,6 +6,9 @@ import lombok.RequiredArgsConstructor;
 import java.util.Arrays;
 import java.util.Optional;
 
+/**
+ * Well known business days codes.
+ */
 @RequiredArgsConstructor
 @Getter
 public enum BusinessDay {

@@ -14,7 +14,13 @@ public record WebAppBusinessResponse(
   @JsonProperty("address")
   String address,
 
-  @JsonProperty("opening_hours")
-  List<WebAppBusinessOpeningDays> openingDaysList
+  @JsonProperty("opening_days")
+  List<WebAppBusinessOpeningDays> openingDaysList,
+
+  @JsonProperty("closed_on_holidays")
+  Boolean closedOnHolidays,
+
+  @JsonProperty("open_by_arrangement")
+  Boolean openByArrangement
 ) {
 }
