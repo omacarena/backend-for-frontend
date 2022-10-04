@@ -1,0 +1,10 @@
+feign:
+  business-search:
+    name: business-search
+    url: https://storage.googleapis.com/coding-session-rest-api
+
+springdoc:
+  api-docs:
+    path: /open-api
+  swagger-ui:
+    path: /swagger

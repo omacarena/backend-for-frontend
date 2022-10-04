@@ -1,0 +1,10 @@
+feign:
+  business-search:
+    name: business-search
+    url: [[to_be_defined]]
+
+springdoc:
+  api-docs:
+    path: /open-api
+  swagger-ui:
+    path: /swagger
